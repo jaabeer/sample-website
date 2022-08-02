@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;500;700&display=swap');
+
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;  
+}
+
+body{
+    font-family:'poppins',sans-serif;
+
+}
+
+.banner{
+    min-height:100vh;
+    background:url("f.png") center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    padding-bottom:20px;
+
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns: 420px 420px;
+}
+.card-img{
+    background:url("e.png") center/cover no-repeat;
+}
+
+.banner h2{
+    padding-bottom:40px;
+    margin-bottom: 20px;
+    
+}
+
+.card-content{
+    background: #fff;
+    height:330px;
+
+}
+
+.card-content h3{
+    text-align:center;
+    color:#000;
+    padding:25px 0 10px 0;
+    font-size:26px;
+    font-weight:500;
+
+}
+
+.form-row{
+    display:flex;
+    width:90%;
+    margin: 0 auto;
+
+}
+form select, form input{
+    display:block;
+    width:100%;
+    margin: 15px 12px;
+    padding:5px;
+    font-size:15px;
+    font-family:'poppins', sans-serif;
+    outline:none;
+    border:none;
+
+}
+
+form input[type=text], form input[type=number],form input::placeholder
+select{
+    color:9a9a9a;
+
+}
+form input[type=submit]{
+    color:#fff;
+    background:#f2745f;
+}
+
+nav{
+    width:200%;
+    background-color:rgb(27, 26, 26);
+    height: 80px;
+    line-height:100px;
+    
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+header{
+    position:fixed;
+    top:0; left:0; right:0;
+    background:rgb(45, 44, 44);
+    padding:1rem 2%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    z-index:100;
+    box-shadow:var(--box-shadow);
+
+}
+
+a:link {
+    color: rgb(76, 75, 75);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }

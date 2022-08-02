@@ -1,0 +1,23 @@
+.sm-icons{
+    flex-direction: row;
+    width: 20px;
+}
+.sm-icons .nav-link{
+    padding-right: 1em;
+}
+.text-center{
+    font-family: 'Lato', sans-serif;
+}
+.card-img{
+  height: 500px;
+  width: fit-content;
+  
+
+}
+.button{
+    padding-top: 10px;
+}
+.card-img-bottom{
+    height: 700px;
+    width: 50px;
+}

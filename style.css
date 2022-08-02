@@ -1,0 +1,17 @@
+
+.sm-icons{
+  flex-direction: row;
+  width: 20px;
+}
+.sm-icons .nav-link{
+  padding-right: 1em;
+}
+
+
+
+body{
+  margin: 0;
+  padding:0;
+  background-size: cover;
+  background:url(img/pexels-jill-burrow-6387866.jpg)
+}
